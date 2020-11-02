@@ -1,0 +1,39 @@
+div{
+    margin: 0 300px;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+p2{
+    font-family: Tahoma;
+    font-size: 15px;
+}
+.chudam{
+    font-weight: bold;
+}
+.chunghieng{
+    font-style:italic;
+}
+.nghiengdo{
+    font-style: italic;
+    color: red;
+}
+.nghiengxanh{
+    color: darkgreen;
+    font-style:italic;
+    text-decoration-line:underline;
+    text-decoration-color:darkgreen ;
+}
+.mau{
+    font-weight: bold;
+    color: red;
+}
+.chuxanh{
+    color:blue;
+    text-decoration-line:underline;
+    text-decoration-color:blue ;
+}
+a{
+    color:blue;
+}
