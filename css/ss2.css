@@ -14,7 +14,7 @@ img{
     left: 183px;
     top: 27px;
     bottom: 400px;
-    font-family: "Candara Light" ,sans-serif;
+    font-family: "Candara Light" ;
 }
 h1{
     display: inline;
@@ -52,6 +52,7 @@ h1{
     color: whitesmoke;
     text-align: center;
     height:149px;
+    padding-top: 30px;
 }
 i{
     font-style: italic;
@@ -59,10 +60,10 @@ i{
     font-size: 23px;
 }
 .main {
-    height: 1398px;
-    padding-left: 150px;
-    padding-right: 200px;
-    padding-top: 60px;
+    height: 870px;
+    padding-left: 154px;
+    padding-right: 209px;
+    padding-top: 84px;
 }
 div{
     display: block;
@@ -76,18 +77,20 @@ div{
 }
 p {
     color: black;
-    font-family: "Candara Light", sans-serif;
+    font-family: "Candara Light";
 }
 .col-12 {
     width: 100%;
 }
 footer {
-    background-color: #eaf2ff;
-    height: 100px;
+    background-color: lightskyblue;
+    height: 88px;
     text-align: center;
-    font-family: "Roboto Light", sans-serif;
+    font-family: "Roboto Light";
     color: black;
 }
-footer {
-    display: block;
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
 }
